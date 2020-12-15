@@ -1,5 +1,10 @@
 body {
   background-color: #000;
+  margin: 15px 0 0 auto;
+  max-width: 1860px;
+}
+
+body > div {
   background-image: url("../images/temple.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,11 +28,7 @@ header {
   flex-flow: column nowrap;
 }
 
-body > div:first-child,
-body > div:last-child {
-  background-color: #000;
-  height: 15px;
-}
+
 
 nav {
   background-color: #1e3c7b;
