@@ -1,0 +1,44 @@
+body {
+  background-color: #fff;
+  margin: 0 0 0 auto;
+  display: block;
+  max-width: 1840px;
+  background-image: url("../images/temple.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+header > div {
+  background-color: #000;
+  height: 15px;
+}
+
+nav {
+  background-color: #1e3c7b;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+nav > img {
+  width: 100%;
+  max-width: 100px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+main {
+
+}
