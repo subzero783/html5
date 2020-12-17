@@ -121,6 +121,7 @@ main {
   display: flex;
   flex-flow: row nowrap;
   align-items: flex-end;
+  margin-top: 20px;
 }
 
 main > aside {
