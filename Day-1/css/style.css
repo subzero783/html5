@@ -2,6 +2,7 @@ body {
   background-color: #000;
   margin: 15px 0 0 auto;
   max-width: 1860px;
+  font-family:'Arial', Courier, monospace;
 }
 
 body > div {
@@ -83,10 +84,98 @@ nav > ul > li > span {
 }
 
 header > aside {
-  margin: 0 0 0 auto;
+  margin: 0 20px 0 auto;
+
 }
 
-header > aside > div >  img {
+header > aside > div:first-child {
+  background-color: #000;
+  color: yellow;
+  padding: 10px;
+  margin: 0 0 5px 0;
+  text-align: center;
+}
+
+header > aside > div:first-child > a {
+  color: yellow;
+  text-decoration: none;
+  text-align: center;
+}
+
+header > aside > div:last-child > a {
+  background-color: #1e3c7b;
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
+
+header > aside > div > img {
+  padding: 5px;
+  background-color: #1e3c7b;
   width: 100%;
   max-width: 20px;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-end;
+}
+
+main > aside {
+  background: #fff;
+  padding: 20px;
+  font-size: 18px;
+}
+
+main > aside > ul > li > a {
+  text-decoration: none;
+  display: block;
+}
+
+main > aside > ul > li:not(:nth-child(3)),
+main > aside > ul > li:not(:nth-child(3)), 
+main > aside > ul > li:not(:nth-child(3)) {
+  background-color: #1e3c7b;
+  padding: 10px;
+  
+}
+
+main > aside > ul > li:not(:nth-child(3)) > a,
+main > aside > ul > li:not(:nth-child(3)) > a, 
+main > aside > ul > li:not(:nth-child(3)) > a {
+  color: #fff;
+}
+
+main > aside > ul > li:nth-child(3) {
+  background-color: #000;
+}
+
+main > aside > ul > li:nth-child(3) > a {
+  padding: 10px;
+  color: yellow;
+  
+}
+
+main > aside > ul > li:hover,
+main > aside > ul > li:active,
+main > aside > ul > li:focus {
+  background-color: yellow;
+
+}
+
+main > aside > ul > li:hover > a,
+main > aside > ul > li:active > a, 
+main > aside > ul > li:focus > a{
+  color: #1e3c7b;
+}
+
+main > div > section:first-child > h3 {
+  color: #fff;
+  font-size: 40px;
+}
+
+main > div > section:first-child {
+  text-transform: uppercase;
 }
